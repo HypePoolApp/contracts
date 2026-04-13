@@ -1,0 +1,50 @@
+{
+    "name": "@hypepool/contracts",
+    "version": "1.2.0",
+    "description": "HypePool Protocol — Trustless prize pool on Hyperliquid L1. Powered by Chainlink VRF via CCIP.",
+    "keywords": [
+        "solidity",
+        "smart-contracts",
+        "pool",
+        "hyperliquid",
+        "hyperevm",
+        "chainlink-vrf",
+        "chainlink-ccip",
+        "defi",
+        "evm",
+        "uups-upgradeable",
+        "hardhat"
+    ],
+    "homepage": "https://github.com/HypePoolApp/contracts#readme",
+    "bugs": {
+        "url": "https://github.com/HypePoolApp/contracts/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HypePoolApp/contracts.git"
+    },
+    "license": "MIT",
+    "author": "HypePool <https://hypepool.app>",
+    "type": "commonjs",
+    "scripts": {
+        "compile": "hardhat compile",
+        "test": "hardhat test",
+        "clean": "hardhat clean"
+    },
+    "devDependencies": {
+        "@chainlink/contracts": "^1.4.0",
+        "@chainlink/contracts-ccip": "^1.6.0",
+        "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+        "@nomicfoundation/hardhat-ethers": "^3.0.8",
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "@openzeppelin/contracts": "^5.2.0",
+        "@openzeppelin/contracts-upgradeable": "^5.2.0",
+        "@openzeppelin/hardhat-upgrades": "^3.7.0",
+        "chai": "^4.5.0",
+        "ethers": "^6.13.5",
+        "hardhat": "^2.22.18"
+    },
+    "dependencies": {
+        "@chainlink/local": "^0.2.7"
+    }
+}
